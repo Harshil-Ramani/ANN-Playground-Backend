@@ -1,7 +1,7 @@
 const express = require('express');
-const database = require('./../../database.js');
-const setDefault = require("./../setDefault.js");
-const jwt = require("./../../jwt.js");
+const database = require('../../database.js');
+const setDefault = require("../setDefault.js");
+const jwt = require("../../jwt.js");
 
 const router=express.Router();
 
